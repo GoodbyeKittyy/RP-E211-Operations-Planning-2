@@ -1,0 +1,23 @@
+when total supply greater than total demand, 
+the supply node constraints is <=
+
+when total demand greater than total supply, 
+the demand node constraints is =>
+
+Holt's model is not suited when there is seasonality,
+it is not an appropriate method for extrapolating seasonal data. 
+
+Simple exponential smoothing : This model is good for non-seasonal data that is fairly level (no trend). 
+
+Holt’s linear method/Double exponential smoothing : This model is good for non-seasonal data with a
+trend.
+
+the average age of the data in the simple moving average is (m+1)/2 relative to 
+the period for which the forecast is computed: this is the amount of time by which 
+forecasts will tend to lag behind turning points in the data. 
+For example, if you are averaging the last 5 values, the forecasts will be 
+about 3 periods late in responding to turning points.
+
+T-stat. A negative sign implies that the sample mean is less than the hypothesized mean. 
+This would be evidence against the null hypothesis IF (and only if) the alternative was that the true mean is LESS than the hypothesized value. 
+A positive sign implies that the sample mean is larger than the hypothesized mean.
